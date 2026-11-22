@@ -55,10 +55,10 @@ def lines(x,y,items,maxw,scale=1,c=INK,leading=None,limit=None):
         text(x,yy,s,scale,c); yy+=leading
     return yy
 
-main = ("IRAN STRIKES BAHRAIN SITE AS TANKERS HIT IN HORMUZ", "Bahrain said an Iranian attack hit a civilian industrial facility while tankers were struck in the Strait of Hormuz; Saudi defences intercepted a missile allegedly aimed at Makkah.", "MIDDLE EAST / CONFLICT")
+main = ("IRAN STRIKES BAHRAIN SITE AS TANKERS HIT IN HORMUZ", "Bahrain said two people were injured in Saturday's strike on a civilian industrial site as it intercepted fresh Iranian attacks on Sunday; two tankers were hit in Hormuz, and Tehran readied 14 tankers to defy the US blockade.", "MIDDLE EAST / CONFLICT")
 top2 = [
-("UKRAINE STRAINS RUSSIAN LOGISTICS WITH CRIMEAN BRIDGE STRIKES", "Kyiv's strikes squeezed Russian supply lines, and a Russian cargo ship burned in the Baltic after a drone strike.", "EUROPE / CONFLICT"),
-("COP31 CLIMATE TALKS CLOSE IN ON FINAL DEAL", "The summit president said negotiators neared agreement, though a fossil-fuel dispute still threatened to scupper the deal.", "CLIMATE")]
+("COP31 CLIMATE TALKS COLLAPSE IN CHAOS OVER FOSSIL FUELS", "The Antalya summit ended in failure as nearly 200 nations rejected a final text that never mentioned fossil fuels; the EU and island states refused to endorse it after the longest COP on record.", "CLIMATE"),
+("UKRAINE STRAINS RUSSIAN LOGISTICS WITH CRIMEAN BRIDGE STRIKES", "Kyiv's strikes squeezed Russian supply lines, and a Russian cargo ship burned in the Baltic after a drone strike.", "EUROPE / CONFLICT")]
 briefs = [
 ("NATO VOWS TO DEFEND 'EVERY INCH' OF POLAND","The pledge followed a Russian airspace violation over Polish territory.","EUROPE / POLITICS"),
 ("MEXICO CAPTURES CARTEL LORD 'EL CHAPO ISIDRO'","The Sinaloa boss was seized in a string of arrests; violence after the capture left 11 dead in Sinaloa.","LATIN AMERICA / CRIME"),
@@ -84,8 +84,8 @@ briefs = [
 ("AMERICA-BOUND MIGRANT CARAVAN REACHES MEXICO","The caravan crossed into Mexico on its way north.","LATIN AMERICA / MIGRATION"),
 ("UK MAN SWIMS STRAIT OF HORMUZ FOR ENVIRONMENT","He swam the strait to highlight environmental damage from the conflict.","WORLD / ENVIRONMENT"),
 ("UN WARNS YOUTH FACE ADULTHOOD IN ECONOMIC INSECURITY","The UN flagged job and housing insecurity for young people worldwide.","WORLD / SOCIETY"),
-("ENGLISH VILLAGE VOTES TO 'LEAVE UK' OVER CAMP PLAN","Villagers staged a protest vote against a planned migrant camp.","EUROPE / SOCIETY"),
-("FORMER ITALIAN POLICE CHIEF DIES BY SUICIDE","The former chief's death was reported in Rome.","EUROPE / NEWS"),
+("VERSTAPPEN WINS LAS VEGAS GRAND PRIX THRILLER","The Red Bull driver held off McLaren pair Norris and Piastri in a frenetic night race on the Las Vegas Strip.","SPORT / FORMULA 1"),
+("FRENCH COLT ELDENARI LANDS MILE CHAMPIONSHIP IN KYOTO","A first foreign-trained winner of the Kyoto race, beating Embroidery and Star Anis.","SPORT / HORSE RACING"),
 ("MAO SHIMADA WINS FINLANDIA TROPHY, BOOKS FINAL SPOT","The Japanese skater won in Finland to book her place in the Grand Prix Final.","SPORT / FIGURE SKATING"),
 ("SCOTLAND OVERPOWER JAPAN IN NATIONS CHAMPIONSHIP","Scotland beat Japan in the rugby clash.","SPORT / RUGBY"),
 ("ALL BLACKS COACH RENNIE ON HOT SEAT AFTER ENGLAND LOSS","A poor showing against England piled pressure on New Zealand's coach.","SPORT / RUGBY"),
